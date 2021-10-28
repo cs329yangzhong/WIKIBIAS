@@ -1,0 +1,2 @@
+export DATA=bias_data/WNC/
+python baseline.py --train bias_data/WNC/biased.word.train --test bias_data/WNC/biased.word.test --working_dir train_tagging/

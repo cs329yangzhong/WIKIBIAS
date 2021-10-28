@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 python run_ner.py --data_dir=data/data_joint_model/2021_data --bert_model=bert-base-cased --task_name=joint --output_dir=out_tag_cased_0_1_0_0511_seed1000 --max_seq_length=128 --num_train_epochs 3 --do_eval --eval_on dev --warmup_proportion=0.1 --do_train --seed 1000 --do_joint True --loss_weight 0_1_0
