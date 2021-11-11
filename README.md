@@ -2,7 +2,21 @@
 
 This repo contains codes for the following paper:
 ```
-TODO
+@inproceedings{zhong-etal-2021-wikibias-detecting,
+    title = "{WIKIBIAS}: Detecting Multi-Span Subjective Biases in Language",
+    author = "Zhong, Yang  and
+      Yang, Jingfeng  and
+      Xu, Wei  and
+      Yang, Diyi",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.155",
+    pages = "1799--1814",
+    abstract = "Biases continue to be prevalent in modern text and media, especially subjective bias {--} a special type of bias that introduces improper attitudes or presents a statement with the presupposition of truth. To tackle the problem of detecting and further mitigating subjective bias, we introduce a manually annotated parallel corpus WIKIBIAS with more than 4,000 sentence pairs from Wikipedia edits. This corpus contains annotations towards both sentence-level bias types and token-level biased segments. We present systematic analyses of our dataset and results achieved by a set of state-of-the-art baselines in terms of three tasks: bias classification, tagging biased segments, and neutralizing biased text. We find that current models still struggle with detecting multi-span biases despite their reasonable performances, suggesting that our dataset can serve as a useful research benchmark. We also demonstrate that models trained on our dataset can generalize well to multiple domains such as news and political speeches.",
+}
 ```
 If you would like to refer to it, please cite the paper mentioned above.
 
